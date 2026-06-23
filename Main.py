@@ -11,9 +11,8 @@ print("5.exit")
 library=Libraray()
 
 while True:
-
+    
     choice = input("enter your choice: ")
-
     if choice == "1":
         library.add_book()
     elif choice == "2":
